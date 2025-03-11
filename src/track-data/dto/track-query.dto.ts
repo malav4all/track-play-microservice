@@ -8,6 +8,5 @@ export class TrackQueryDto {
   endDate: string;
 
   @IsString()
-  @IsOptional()
   imei?: string;
 }

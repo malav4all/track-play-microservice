@@ -12,7 +12,6 @@ import { TrackDataService } from './track-data.service';
 import { TrackQueryDto } from './dto/track-query.dto';
 
 @Controller('trackdata')
-// @UseInterceptors(ClassSerializerInterceptor)
 export class TrackDataController {
   private readonly logger = new Logger(TrackDataController.name);
 
