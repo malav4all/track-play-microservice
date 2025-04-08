@@ -5,8 +5,6 @@ import {
   HttpStatus,
   HttpException,
   Logger,
-  ClassSerializerInterceptor,
-  UseInterceptors,
 } from '@nestjs/common';
 import { TrackDataService } from './track-data.service';
 import { TrackQueryDto } from './dto/track-query.dto';
